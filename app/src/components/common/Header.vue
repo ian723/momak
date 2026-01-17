@@ -152,7 +152,7 @@ const navigation = [
   { name: "About Us", href: "/aboutus" },
   { name: "Services", href: "/service" },
   { name: "Partners", href: "/partner" },
-  { name: "Contact", href: "#" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const toggleMenu = () => (isOpen.value = !isOpen.value);
