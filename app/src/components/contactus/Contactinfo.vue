@@ -13,7 +13,7 @@
           role="listitem"
         >
           <div
-            class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-slate-800/50 md:h-14 md:w-14"
+            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-slate-800/50 md:h-14 md:w-14"
           >
             <component
               :is="item.iconComponent"
