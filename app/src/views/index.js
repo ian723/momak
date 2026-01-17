@@ -1,15 +1,7 @@
 import HomeView from "./HomeView.vue";
-import DetailsView from "./DetailsView.vue";
-import PostsView from "./PostsView.vue";
-import PiniaTest from "./PiniaTest.vue";
-import ApiTestView from "./ApiTestView.vue";
-import LandingView from "./LandingView.vue";
+import AboutusView from "./AboutusView.vue";
+import SerView from "./SerView.vue";
+import PartnerView from "./PartnerView.vue";
+import ContactView from "./ContactView.vue";
 
-export {
-  HomeView,
-  DetailsView,
-  PostsView,
-  PiniaTest,
-  ApiTestView,
-  LandingView,
-};
+export { HomeView, AboutusView, SerView, PartnerView, ContactView };
