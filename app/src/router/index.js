@@ -5,7 +5,10 @@ import {
   SerView,
   PartnerView,
   ContactView,
+  GetaquoteView,
 } from "../views";
+
+
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
@@ -13,6 +16,7 @@ const routes = [
   { path: "/service", name: "service", component: SerView },
   { path: "/partner", name: "partner", component: PartnerView },
   { path: "/contact", name: "contact", component: ContactView },
+  {path: "/getaquote", name: "getaquote", component: GetaquoteView},
 ];
 
 /**Initialize here */
