@@ -19,18 +19,18 @@
       <!-- Action Buttons -->
       <div class="flex flex-wrap justify-center gap-4 pt-4">
         <!-- Primary Button -->
-        <button
+        <router-link to="/contact"
           class="bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-4 rounded-xl font-bold text-lg shadow-xl shadow-emerald-200 transition-all transform hover:-translate-y-1"
         >
-          Get a Quote
-        </button>
+          ContactUs
+        </router-link>
 
         <!-- Secondary Button -->
-        <button
+        <!-- <button
           class="bg-white hover:bg-slate-50 text-emerald-600 border-2 border-emerald-600 px-10 py-4 rounded-xl font-bold text-lg shadow-sm transition-all transform hover:-translate-y-1"
         >
           Our Services
-        </button>
+        </button> -->
       </div>
     </div>
   </section>

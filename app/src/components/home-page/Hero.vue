@@ -40,16 +40,18 @@
 
         <!-- Buttons -->
         <div class="mt-10 flex flex-wrap gap-4">
-          <button
+          <router-link
+            to="/getaquote"
             class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl font-bold transition-all transform hover:scale-105 shadow-lg"
           >
             Get Started
-          </button>
-          <button
+          </router-link>
+          <router-link
+            to="/services"
             class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-3 rounded-xl font-bold transition-all"
           >
             View Our Services
-          </button>
+          </router-link>
         </div>
 
         <!-- Slide Indicators (Dots) -->

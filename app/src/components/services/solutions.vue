@@ -45,11 +45,11 @@
               Cybersecurity & Data Protection
             </li>
           </ul>
-          <button
+          <!-- <button
             class="bg-emerald-600 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-bold transition-all"
           >
             Learn More
-          </button>
+          </button> -->
         </div>
         <div class="w-full md:w-1/2">
           <img
@@ -110,11 +110,11 @@
               Wireless Network Optimization
             </li>
           </ul>
-          <button
+          <!-- <button
             class="bg-emerald-600 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-bold transition-all"
           >
             Explore Infrastructure
-          </button>
+          </button> -->
         </div>
         <div class="w-full md:w-1/2">
           <img
@@ -170,11 +170,11 @@
               Project Management & Supervision
             </li>
           </ul>
-          <button
+          <!-- <button
             class="bg-emerald-600 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-bold transition-all"
           >
             View Projects
-          </button>
+          </button> -->
         </div>
         <div class="w-full md:w-1/2">
           <img
@@ -235,11 +235,11 @@
               Audits & Consultation
             </li>
           </ul>
-          <button
+          <!-- <button
             class="bg-emerald-600 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-bold transition-all"
           >
             Get Solar Quote
-          </button>
+          </button> -->
         </div>
         <div class="w-full md:w-1/2">
           <img

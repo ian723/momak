@@ -3,7 +3,7 @@
     <Abhero />
     <Evolution />
     <Values />
-    <Build />
+    <!-- <Build /> -->
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import Abhero from "../components/about/Abhero.vue";
 import Evolution from "../components/about/Evolution.vue";
 import Values from "../components/about/Values.vue";
-import Build from "../components/about/Build.vue";
+// import Build from "../components/about/Build.vue";
 </script>
 
 <style lang="scss" scoped></style>

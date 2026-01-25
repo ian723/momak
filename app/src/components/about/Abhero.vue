@@ -21,11 +21,11 @@
           through precision and passion.
         </p>
         <!-- Button changed to Green -->
-        <button
+        <!-- <button
           class="bg-emerald-600 hover:bg-emerald-600 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300"
         >
           View Our Impact
-        </button>
+        </button> -->
       </div>
     </section>
 

@@ -33,11 +33,11 @@
           </p>
         </div>
 
-        <button
+        <router-link to="/aboutus"
           class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-emerald-200 transition-all transform hover:-translate-y-1"
         >
           Read More About Us
-        </button>
+        </router-link>
       </div>
 
       <!-- RIGHT CONTENT: Feature Cards -->

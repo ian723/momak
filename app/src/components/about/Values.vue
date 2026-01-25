@@ -146,7 +146,7 @@
             </p>
           </div>
 
-          <a
+          <!-- <a
             href="#"
             class="inline-flex items-center gap-2 text-green-600 font-bold hover:text-green-700 transition-colors pt-4 group"
           >
@@ -166,7 +166,7 @@
               <line x1="5" y1="12" x2="19" y2="12" />
               <polyline points="12 5 19 12 12 19" />
             </svg>
-          </a>
+          </a> -->
         </div>
       </div>
     </section>

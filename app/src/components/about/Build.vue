@@ -34,18 +34,18 @@
           class="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <!-- Primary White Button -->
-          <button
+          <router-link to="/partner"
             class="bg-white text-green-600 px-10 py-4 rounded-2xl font-bold text-lg hover:bg-green-50 transition-all duration-300 transform hover:scale-105 min-w-50"
           >
             Partner With Us
-          </button>
+          </router-link>
 
           <!-- Secondary Outline Button -->
-          <button
+          <!-- <button
             class="border-2 border-white/80 text-white px-10 py-4 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all duration-300 transform hover:scale-105 min-w-50"
           >
             View Openings
-          </button>
+          </button> -->
         </div>
       </div>
     </div>

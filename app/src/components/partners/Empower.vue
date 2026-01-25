@@ -42,17 +42,23 @@
       </div>
     </div>
 
-    <!-- RIGHT CONTENT (Gradient Image Placeholder) -->
-    <div class="w-full md:w-1/2">
+    <!-- RIGHT CONTENT (Image) -->
+    <div class="w-full md:w-1/2 relative">
+      <!-- Decorative Background element (Optional) -->
+      <div class="absolute -top-6 -right-6 w-32 h-32 bg-green-100 rounded-full blur-3xl opacity-50"></div>
+      
       <div
-        class="relative p-6 bg-slate-50 rounded-[3rem] border border-slate-100 shadow-sm"
+        class="relative p-3 bg-white rounded-[3rem] border border-slate-100 shadow-2xl overflow-hidden"
       >
-        <!-- The inner gradient box seen in your image -->
-        <div
-          class="aspect-square w-full rounded-4xl shadow-inner bg-linear-to-br from-[#c1dfc4] via-[#9bb7ad] to-[#5a9c97]"
-        >
-          <!-- This simulates the soft green/teal gradient from your screenshot -->
-        </div>
+        <!-- Actual Image Tag -->
+        <img
+          src="https://res.cloudinary.com/drbhyey5b/image/upload/v1769259252/Innov_dlk5cj.png" 
+          alt="Business Partnership and Collaboration"
+          class="aspect-square w-full object-cover rounded-[2.5rem]"
+        />
+        
+        <!-- Decorative Overlay (Optional: adds a slight green tint to match brand) -->
+        <div class="absolute inset-0 rounded-[2.5rem] ring-1 ring-inset ring-black/5"></div>
       </div>
     </div>
   </section>
@@ -61,7 +67,7 @@
 <script setup>
 /**
  * Partnership Hero Section for Momak Technologies Ltd
- * Converted from Blue to Green theme.
+ * Image version
  */
 </script>
 
@@ -69,5 +75,21 @@
 h1 {
   font-family: "Inter", sans-serif;
   letter-spacing: -0.02em;
+}
+
+/* Optional: Subtle entrance animation for the image */
+img {
+  animation: reveal 1s ease-out;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 </style>
